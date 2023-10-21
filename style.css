@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+header {
+    padding-top: 57px;
+    background: url("img/header-bg.jpg") no-repeat center top / cover;
+    height: 900px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 216px;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.menu li a {
+margin-right: 40px;
+font-size: 14px;
+letter-spacing: 1.4px;
+}
+
+.tel {
+    margin-left: auto;
+    font-size: 17px;
+    letter-spacing: 1.7px;
+}
+
+.section p {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: -9px;
+}
+
+.section h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+}
+
+.section a {
+    display: block;
+    width: 238px;
+    height: 57px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1.7px;
+    line-height: 57px;
+}
+
+.about-title {
+    padding-top: 113px;
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-left, .sidebar-right {
+    width: 564px;
+}
+
+.sidebar-title {
+    font-family: "Anton", sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.sidebar-text {
+    text-align: justify;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.62em;
+}
+
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 114px;
+}
+
+.authors {
+    display: flex;
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.authors p {
+    margin-right: 60px;
+}
